@@ -1,13 +1,14 @@
 
-
+# Controller
+## Return http code
 ```php
-
-$x = 5;
-
-
-
-
-
+class myController{
+    public function actionA(){
+   		return 404;
+    }
+}
 ```
+## Redirect
+
 
 
