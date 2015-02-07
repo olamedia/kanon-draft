@@ -29,6 +29,26 @@ $router->get('hello', function(){
     return 404;
 });
 ```
+```php
+\zero\router::create([
+    'base' => '/app/'
+],[
+    'account' => function(){
+        // $this refers to router instance
+        $this->post([
+            'logout' => function(){
+            }
+        ]);
+        $this->route([
+            'login' => function(){
+            },
+            'settings' => function(){
+            }
+        ]);
+    }
+]);
+```
+
 ## Action, init/show
 ```php
 $router->action('action', function(){
