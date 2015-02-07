@@ -41,4 +41,9 @@ function(){
     // show
 });
 ```
+## Controller interaction
+```php
+$router->action('a', ['myController', 'actionA']);
+$router->action('a', ['myController', 'initA'], ['myController', 'showA']);
+```
 
