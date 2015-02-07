@@ -28,6 +28,17 @@ $router->get('hello', function(){
     });
     return 404;
 });
-
+```
+## Action, init/show
+```php
+$router->action('action', function(){
+    return 'Action';
+});
+$router->action('init, show', 
+function(){
+    // init
+}, function(){ // close session
+    // show
+});
 ```
 
