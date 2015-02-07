@@ -9,6 +9,12 @@ class myController{
 }
 ```
 ## Redirect
-
+```php
+class myController{
+    public function actionA(){
+   		return response::redirect($uri);
+    }
+}
+```
 
 
