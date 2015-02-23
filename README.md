@@ -48,7 +48,7 @@ $router->get('hello', function(){
     }
 ]);
 ```
-## Lazy Rule for Controller
+## Loose binding for Controller
 rough draft
 ```php
 route(from_controller, pattern, action)
