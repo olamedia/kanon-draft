@@ -48,6 +48,12 @@ $router->get('hello', function(){
     }
 ]);
 ```
+## Lazy Rule for Controller
+rough draft
+```php
+route(from_controller, pattern, action)
+```
+
 
 ## Action, init/show
 ```php
